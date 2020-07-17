@@ -1,0 +1,669 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none !important;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+}
+
+.authentication, div.mobile-auth-error {
+    color: rgb(153, 153, 153);
+    text-align: left !important;
+    margin: 0px !important;
+}
+
+.auth-welcome {
+    width: 90%;
+    padding-bottom: 15px;
+    margin: 0px auto !important;
+}
+
+.savedRecipeWelcome {
+    margin-top: 30px !important;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.authentication .subheader {
+    height: auto;
+    margin: 0px auto;
+    padding-top: 5%;
+    width: 90%;
+    overflow: visible;
+    background: transparent;
+    display: block !important;
+}
+
+.auth-welcome li {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 1.625rem;
+}
+
+.authentication .subheader h1 {
+    font-size: 1.375rem;
+    font-weight: 300;
+    display: inline-block;
+    float: left;
+    color: rgb(77, 77, 77);
+    padding-bottom: 0px !important;
+}
+
+.auth-welcome .signin-subhead, .auth-welcome .sign--social, .auth-welcome h1 {
+    display: none;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+.authentication .signin-subhead, .authentication div.socialSubheader, .standardWelcome .subheader, .authentication .auth-signin-subhead {
+    clear: both;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0px 0px 0.7em !important;
+}
+
+.auth-welcome .btns-social {
+    height: 60px;
+    margin-top: 20px;
+}
+
+.fb_reset {
+    background: none;
+    border: 0px;
+    border-spacing: 0px;
+    color: rgb(0, 0, 0);
+    cursor: auto;
+    direction: ltr;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-transform: none;
+    visibility: visible;
+    white-space: normal;
+    word-spacing: normal;
+}
+
+.fb_reset > div {
+    overflow: hidden;
+}
+
+.authentication div.login-facebook, .authentication div.login-google {
+    box-sizing: border-box;
+    width: 48%;
+    background-color: rgb(242, 242, 242);
+    height: 60px;
+    margin: 0px 0px 0.5em;
+    line-height: 40px;
+    padding-top: 10px;
+    font-size: 1.25em !important;
+}
+
+.authentication div.login-facebook {
+    float: left;
+}
+
+a:active, a:hover {
+    outline: 0px;
+}
+
+.authentication div.login-facebook a {
+    display: block;
+    color: rgb(128, 128, 128);
+    font-size: 0.9em;
+    text-decoration: none;
+    min-width: 150px;
+    height: 42px;
+}
+
+.authentication a, .core-register a, .core-login a, .eu-notification a {
+    color: rgb(243, 104, 18);
+}
+
+.authentication div.login-google span.social-provider, .authentication div.login-facebook a span, .core-login div.login-facebook a span, .core-login div.login-google span.social-provider {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    background-image: url("https://images.media-allrecipes.com/ar-images/sprites/secure_icons.svg");
+    background-repeat: no-repeat;
+}
+
+.authentication div.login-facebook a span, .core-login div.login-facebook a span {
+    display: inline-block;
+    background-color: rgb(59, 89, 152);
+    background-position: 0px -42px;
+    position: relative;
+}
+
+.authentication div.login-facebook a span {
+    left: 10px;
+    top: 0px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-size: 149%;
+}
+
+.authentication div.login-facebook a span::after, .core-login div.login-facebook a span::after {
+    content: "Facebook";
+    color: rgb(102, 102, 102);
+    position: relative;
+}
+
+.authentication div.login-facebook a span::after {
+    font-size: 17px;
+    font-weight: 300;
+    left: 54px;
+}
+
+#google-sign-in-button {
+    box-sizing: border-box;
+    width: 48%;
+    background-color: rgb(242, 242, 242);
+    height: 60px;
+    margin: 0px 0px 0.5em;
+    line-height: 40px;
+    padding-top: 8px;
+    float: right;
+    font-size: 1.25em !important;
+}
+
+#google-sign-in-button:hover {
+    cursor: pointer;
+}
+
+.google-signin-icon {
+    background-image: url("https://images.media-allrecipes.com/ar-images/sprites/secure_icons.svg");
+    background-position: 0px -85px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.google-signin-text {
+    margin-left: 8px;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(128, 128, 128);
+}
+
+.orf-divider {
+    text-align: center;
+    width: 75%;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.orf-divider::before, .orf-divider::after {
+    content: "";
+    width: 40%;
+    border-top: 1px dotted rgb(230, 230, 230);
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+}
+
+.orf-divider::after {
+    left: auto;
+    right: 0px;
+}
+
+.collection-submit-button, .btn-basic--smaller, .btn-basic--small, .btns-one-small, .profile-review-card .add-review-button, .profile-photo-card .add-description-button, .btns-one-small--bottom-margin, .btns-two-small, .buttons-container .lo-container--settings .sort-by, .btns-three-small, .btns-four-small, .btns-five-small, .ad-mag-homeBtm__text-wrap div, .ad-mag-homeBtm__text button, .btn-basic--large, .btns-one-large, .buttons-container .lo-container--settings .button-reg.find-me, .btns-two-large, .btns-three-large, .btns-four-large, .btns-five-large, .buttons-container .lo-container--settings .zip-container > button {
+    border: 0px none;
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    max-width: 459px;
+    padding: 0px 5%;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn-basic--large, .btns-one-large, .buttons-container .lo-container--settings .button-reg.find-me, .btns-two-large, .btns-three-large, .btns-four-large, .btns-five-large, .buttons-container .lo-container--settings .zip-container > button {
+    font-size: 1.125rem;
+    background-color: rgb(179, 179, 179);
+    height: 3.75rem;
+    line-height: 3.75rem;
+}
+
+.btns-one-large, .buttons-container .lo-container--settings .button-reg.find-me {
+    width: 96%;
+    margin: 0px 2%;
+}
+
+a.btns-one-large {
+    width: 100%;
+    margin: 0.8% 0px;
+    background-color: rgb(242, 242, 242);
+    font-size: 1.125rem;
+    line-height: 3.75rem;
+    height: 3.75rem;
+    color: rgb(45, 45, 45);
+    max-width: 100%;
+    font-weight: 300;
+}
+
+a.btns-one-large.go-to-signin {
+    background-color: transparent;
+}
+
+a.btns-one-large span {
+    color: rgb(102, 102, 102);
+}
+
+a.btns-one-large span:nth-child(2) {
+    color: rgb(244, 125, 34);
+    padding-left: 5px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    margin: 0px;
+}
+
+button, input {
+    line-height: normal;
+}
+
+input {
+    -webkit-appearance: none;
+    border: 0px;
+    color: rgb(178, 178, 178);
+}
+
+.authentication input {
+    clear: both;
+    width: 95%;
+    height: 36px;
+    padding: 1% 2%;
+    font-weight: 300;
+    font-size: 15px;
+    border-radius: 0px;
+    margin: 1% 0px !important;
+    box-sizing: initial !important;
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .auth-welcome {
+        width: 450px;
+        padding-bottom: 30px;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media only screen and (min-width: 438px) {
+    .authentication .subheader {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .authentication .subheader {
+        width: 450px;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media only screen and (min-width: 530px) {
+    .authentication .subheader h1 {
+        float: none;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    a, a:visited {
+        text-decoration: underline;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    a, a:visited {
+        text-decoration: underline;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    a, a:visited {
+        text-decoration: underline;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+    }
+}
+
+

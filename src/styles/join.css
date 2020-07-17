@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "GeosansLight";
+  src: url("./GeosansLight.eot?#iefix") format("embedded-opentype"),
+    url("./GeosansLight.woff") format("woff"),
+    url("./GeosansLight.ttf") format("truetype"),
+    url("./GeosansLight.svg#GeosansLight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/********** JOIN SEC*********/
+.text-box {
+}
+
+.text-box .title {
+}
+
+.text-box .title h3 {
+  font-family: GeosansLight;
+  font-size: 23px;
+  color: #284e8b;
+}
+
+.text-box p {
+  font-family: GeosansLight;
+  font-size: 14px;
+  color: #c7c7c7;
+}
